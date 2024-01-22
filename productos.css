@@ -1,0 +1,102 @@
+.logoInicio{
+    width: 10%;
+}
+
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 905px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 22px;
+    right: 0;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    }
+
+.proyectos {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.proyectos li{
+    display: inline-block;
+    text-align: center;
+    width: 31%;
+    vertical-align: top;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    border-color: rgb(156, 156, 156);
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 10px;
+}    
+
+.proyectos li:hover{
+    border-color: darkgoldenrod;
+    color: rgb(176, 132, 20);
+}
+
+.proyectos.li:active{
+    border-color: rgb(4, 132, 139);
+}
+
+.proyectos h2{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.proyectos li:hover h2{
+    font-size: 25px;
+}
+
+.proyecto-int{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.proyecto-des{
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(79, 79, 79);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color: brown;
+    text-decoration: double;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    background: url(Banner/footer.jpg);
+    padding: 10px;
+}
+
+.copy{
+    color: rgb(78, 78, 78);
+    font-size: 13px;
+    margin: 10px;
+}

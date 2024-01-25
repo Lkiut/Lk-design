@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contactos - LK design</title>
+        <link rel="stylesheet" href="reset.css"> 
+        <link rel="icon" href="Banner/logito.png">
+        <link rel="stylesheet" href="stylos - proyectos.css">
+    </head>
+
+
+    <body>
+        <header>
+            <div class="caja">
+
+             <h1><img src="Banner/logito.png" class="logoInicio" alt="logo lk.di"></h1>
+            
+                <nav>
+                    <ul>
+                        <li><a href="index.html"> Home </a></li>
+                         <li><a href="productos.html"> Proyecos </a></li>
+                        <li><a href="contantos.html"> Contantos </a></li>
+                     </ul>
+                </nav>
+            </div>  
+
+        </header>
+
+        <main>
+            <form>
+                <label for="nombreyapellido">Nombre y apellido</label>
+                <input type="texto" id="nombreyapellido" class="input-padre" required placeholder="Pepitx perez">
+
+                <labe for="correoelectronico">Corre Electronico</labe>
+                <input type="email" id="correoelectronico" class="input-padre" required placeholder="pepit@gmial.com">
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" class="input-padre" required placeholder="(xx) xxx xxx xxxx">
+
+                <label for="descrip">Descripcion de la cotizacion</label>
+                <textarea cols="60" rows="10" id="descrip" class="input-padre" placeholder="Quiero saber más sobre...."></textarea>
+
+
+                <fieldset>
+                     <legend>¿Como quieres rescibir una respuesta a tu descripcion?</legend>
+
+                     <laber for="opciones-email"><input type="radio" name="contantos" value="email" id="opciones-email">Email</laber>
+                     
+
+                     <laber for="opciones-telefono"><input type="radio" name="contantos" value="telefono"   id="opciones-telefono">Telefono</laber>
+                      
+
+                     <laber for="opciones-whatsapp"><input type="radio" name="contantos" value="Whatsapp"  id="opciones-whatsapp" checked>Whatsapp</laber>
+                      
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿Que tipo de cotizacion quieres mas informacion?</legend>
+                    <select>
+                        <option>Branding</option>
+                        <option>RRSS</option>
+                        <option>Diseño ux/ui / Front end</option>
+                        <option>Muebles y decoracion</option>
+                    </select>
+                </fieldset>
+                
+
+                <label class="checkbox"><input type="checkbox"> ¿Quiere recibir movedades sobre mis proyectos futuros?</label>
+
+                <input type="submit" value="Quiero saber más" class="enviar">
+                
+               
+            </form>
+
+            <table>
+                <thead>
+                <tr>
+                    <td>Día</td>
+                    <td>Horario</td>
+                </tr>
+                </thead>
+
+                <tr>
+                    <td>lunes</td>
+                    <td>08h - 20h</td>
+                </tr>
+
+                <tr>
+                    <td>miercoles</td>
+                    <td>08h - 20h</td>
+                </tr>
+            </table>
+
+
+        </main>
+    
+
+        <footer>
+            <img src="Banner/logo fot.png" width="200px" alt="Logo lk">
+            <p class="copy">&copy Copyright LK design - 2024 </p>
+        </footer>
+
+    </body>    
+
+</html>
